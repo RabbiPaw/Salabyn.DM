@@ -26,6 +26,8 @@ while s!=fil:
                         t.append(a[j])
                         summ+=b[j]
                         break
+                    elif a[j][0] in t[p] and a[j][1] in t[p]:
+                        break
                 if len(t)>1:
                     for q in range(len(t)):
                         for l in range(len(t[q])):
